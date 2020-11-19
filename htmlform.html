@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+
+<body>
+    <form>
+        <label for="fornavn">Fornavn:</label>
+        <input id="fornavn" type="text" name="fornavn">
+        <!-- trenger bare name i felt hvor det skal skrives inn eller foretas valg. 
+                                                            Trenger dette for at programmeringsspraak skal kunne bruke feltene-->
+
+        <label for="etternavn">Etternavn:</label>
+        <input id="etternavn" type="text" name="etternavn">
+
+        <label for="email">E-mail:</label>
+        <input id="email" type="email" name="email">
+
+        <label for="tel">Telefon:</label>
+        <input id="telefon" type="tel" name="telefon">
+
+        <label for="melding">Din melding:</label>
+        <textarea id="melding" name="melding"></textarea>
+
+        <input type="button" value="Send inn">
+    </form>
+</body>
+
+</html>

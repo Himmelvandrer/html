@@ -1,0 +1,35 @@
+/* Type selector - elementnavn - slik som p, h1, h2 */
+
+h1 {
+    color: gold;
+    text-align: center;
+}
+
+p {
+    color: green;
+}
+
+
+/* Descendant selector - de elementene som er inne i andre element, se eksempel under */
+
+header p {
+    color: blue;
+}
+
+header p span {
+    color: red;
+}
+
+
+/* Class selector */
+
+.article-body {
+    background-color: gray;
+}
+
+
+/* mix av class og descendant selector  */
+
+.article-body p {
+    color: white;
+}
